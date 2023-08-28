@@ -97,6 +97,7 @@ nav li a{
 .about{
   background-color: var(--backgroundColor);
   color: var(--primaryColor);
+  padding-top: 100px !important;
 }
 .main-text1{
   font-weight: var(--normalFont);

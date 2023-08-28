@@ -14,22 +14,22 @@ function Navbar() {
             <div className='nav-menu'>
                 <ul class="nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://www.boomm.app/#home">HOME</a>
+                    <a class="nav-link" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.boomm.app/#about">ABOUT</a>
+                    <a class="nav-link" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.boomm.app/#roadmap">ROADMAP</a>
+                    <a class="nav-link" href="#">ROADMAP</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.boomm.app/#team">TEAM</a>
+                    <a class="nav-link" href="#">TEAM</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.boomm.app/#faq">FAG</a>
+                    <a class="nav-link" href="#">FAG</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.boomm.app/#">EN </a>
+                    <a class="nav-link" href="#">EN </a>
                 </li>
                 </ul>
             </div>
