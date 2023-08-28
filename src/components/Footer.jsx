@@ -6,7 +6,7 @@ function Footer() {
     <div>
         <div className='size'>
             <div>
-                <img src={logo} alt="logo" style={{width: "10rem"}} />
+                <img src='' alt="logo" style={{width: "10rem"}} />
             </div>
             <div className='d-flex'>
                 <div>

@@ -20,7 +20,7 @@ body{
   --secondaryColor1: rgb(112,215,250);
   --secondaryColor2: rgb(1,82,199);
   --backgroundColor: rgb(3,11,33);
-  --smallFont: 400;
+  --smallFont: 600;
   --normalFont: 800;
   --bigFont: 1000;
   --fontSize: 20px;
@@ -43,6 +43,14 @@ body{
 .size{
   width: 90%;
   margin: auto;
+}
+.title{
+  font-size: 17px;
+  font-weight: var(--smallFont);
+}
+.background{
+  background-color: var(--backgroundColor);
+  color: var(--primaryColor);
 }
 .navbar-brand{
   padding: 0 !important;
@@ -95,8 +103,6 @@ nav li a{
   color: var(--primaryColor);
 }
 .about{
-  background-color: var(--backgroundColor);
-  color: var(--primaryColor);
   padding-top: 100px !important;
 }
 .main-text1{
@@ -106,10 +112,6 @@ nav li a{
 .main-text2{
   font-weight: var(--bigFont);
   font-size: 70px;
-}
-.team{
-  background-color: var(--backgroundColor);
-  color: var(--primaryColor);
 }
 .team-box{
   background-color: black;

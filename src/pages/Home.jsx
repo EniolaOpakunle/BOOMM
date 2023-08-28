@@ -37,32 +37,32 @@ function Home() {
           <div className='row'>
             <div className='col-lg-3'>
                 <div className=' text-center bg-dark py-4 px-5 text-light'>
-                <h2 className='secondaryColor1'>182</h2>
-                <p>HOLDERS</p>
+                    <h2 className='secondaryColor1'>182</h2>
+                    <p className='title'>HOLDERS</p>
                 </div>
             </div>
             <div className='col-lg-3'>
                 <div className=' text-center bg-dark py-4 px-5 text-light'>
-                <h2 className='secondaryColor1'>30.41</h2>
-                <p>STAKED[%]</p>
+                    <h2 className='secondaryColor1'>30.41</h2>
+                    <p className='title'>STAKED[%]</p>
                 </div>
             </div>
             <div className='col-lg-3'>
                 <div className='text-center bg-dark py-4 px-5 text-light'>
-                <h2 className='secondaryColor1' >34846</h2>
-                <p>TOKEN MCAP [USD]</p>
+                    <h2 className='secondaryColor1' >34846</h2>
+                    <p className='title'>TOKEN MCAP [USD]</p>
                 </div>
             </div>
             <div className='col-lg-3'>
                 <div className='text-center bg-dark py-4 px-5 text-light'>
-                <h2 className='secondaryColor1'>1024</h2>
-                <p>VOLUME TRADED [BNB]</p>
+                    <h2 className='secondaryColor1'>1024</h2>
+                    <p className='title'>VOLUME TRADED [BNB]</p>
                 </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='about pt-5' id='about'>
+      <div className='about py-5 background' id='about'>
         <div className='size row justify-content-space-between'>
           <div className='col-lg-6'>
             <div className=' w-100'>
@@ -71,12 +71,12 @@ function Home() {
           </div>
           <div className='col-lg-6 px-4'>
             <div className=''>
-              <h4 className='secondaryColor2'>THE STORY</h4>
+              <h4 className='secondaryColor2 title'>THE STORY</h4>
               <h3 className=''>ABOUT US</h3>
               <p>Y INNOVATIONS is not just a sniper bot or trading bot, we have built a full integrated system including buybot, walletbot, safecheck and trading bot all direct within telegram. Eliminating the need to use exchanges such as, Dextools, Poocoin, Uniswap and Pancakeswap, we provide all this to you directly in your community group.</p>
             </div>
-            <div>
-              <h4 className='secondaryColor1'>OUR VISIONS</h4>
+            <div className='mt-5'>
+              <h4 className='secondaryColor1 title'>OUR VISIONS</h4>
               <h3>UTILITY THAT SERVES THE COMMUNITY</h3>
               <p>In 98% of tokens the devs just build utility to pump the chart. BOOMM is different, we aim to solve real problems in crypto space.</p>
               <p>All the Y INNOVATIONS utilities are interconnected and work together to provide the best user experience possible.</p>
@@ -102,9 +102,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='' id='roadmap'>
+      <div className='py-5 roadmap background' id='roadmap'>
         <div className='size text-center'>
-          <p>ROADMAP</p>
+          <p className='title'>ROADMAP</p>
           <h1>HOW IT ALL STARTED</h1>
           <div className='d-flex'>
             <div>
@@ -142,44 +142,44 @@ function Home() {
                     <p>We just started, to be continued...</p>
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <div className='bg-dark d-flex justify-content-center align-items-center' style={{width:'5rem'}}>
                     <p className='bgSecondary1' style={{width: "2rem"}}>i </p>
                 </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-      <div className='team' id='team'>
+      <div className='team background py-5' id='team'>
         <div className='size text-center'>
           <p>TEAM MEMBER</p>  
           <h1>MEET THE CREW</h1>
           <div className='row gap-4 justify-content-center'>
-            <div className='col-lg-6'>
-                <div className='row align-items-center team-box'>
-                    <div className="col-lg-6">
-                        <img src={yop} alt="" className='w-100' />
-                    </div>
-                    <div className="col-lg-6">
-                        <h2>YOP</h2>
-                        <p>Lead DEV</p>
-                        <p>With more than 14years experiences as fullstack engineer and entrepreneur in heart, always looking for challenges.
-                        Love the crypto world, and started Y INNOVATIONS just for fun but now its become a full time projects with a real market and business model.</p>
-                    </div>
-                </div>
-            </div>
-            <div className='col-lg-6'>
-                <div className='row align-items-center team-box'>
-                    <div className="col-lg-6">
-                        <img src={hecker} alt="" className='w-100' />
-                    </div>
-                    <div className="col-lg-6">
-                        <h2>HECKER</h2>
-                        <p>Team (Co.)</p>
-                        <p>CrYpto enthusiasts from og bsc times 2020 , love helping out and finding true gems. Hardworker and always grinding for success. LFG</p>
+                <div className='col-lg-6'>
+                    <div className='row align-items-center team-box'>
+                        <div className="col-lg-6">
+                            <img src={yop} alt="" className='w-100' />
+                        </div>
+                        <div className="col-lg-6">
+                            <h2>YOP</h2>
+                            <p>Lead DEV</p>
+                            <p>With more than 14years experiences as fullstack engineer and entrepreneur in heart, always looking for challenges.
+                            Love the crypto world, and started Y INNOVATIONS just for fun but now its become a full time projects with a real market and business model.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div className='col-lg-6'>
+                    <div className='row align-items-center team-box'>
+                        <div className="col-lg-6">
+                            <img src={hecker} alt="" className='w-100' />
+                        </div>
+                        <div className="col-lg-6">
+                            <h2>HECKER</h2>
+                            <p>Team (Co.)</p>
+                            <p>CrYpto enthusiasts from og bsc times 2020 , love helping out and finding true gems. Hardworker and always grinding for success. LFG</p>
+                        </div>
+                    </div>
+                </div>
             <div className='col-lg-6'>
                 <div className='row align-items-center team-box'>
                 <div className="col-lg-6">
@@ -249,43 +249,55 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='' id='fag'>
+      <div className='py-5 fag' id='fag'>
         <div className='size text-center'>
-          <p>QUESTIONS AND ANSWERS</p>
+          <p className='title'>QUESTIONS AND ANSWERS</p>
           <h1>FREQUENTLY ASKED QUESTIONS</h1>
-          <div className='row'>
-            <div className="col-lg-6 d-flex justify-content-space-between question-box">
-                <h4>WHAT IS BOOMM ?</h4>
-                <p></p>
+          <div className='row mt-5'>
+          <div className='col-lg-6'>
+                <div className="d-flex justify-content-space-between question-box">
+                    <h4>WHAT IS Y INNOVATION?</h4>
+                    <p></p>
+                </div>
             </div>
-            <div className="col-lg-6 d-flex justify-content-space-between question-box">
-                <h4>WHEN IS THE OFFICIAL LAUNCH ?</h4>
-                <p></p>
+            <div className='col-lg-6'>
+                <div className="d-flex justify-content-space-between question-box">
+                    <h4>WHEN IS THE OFFICIAL LAUNCH ?</h4>
+                    <p></p>
+                </div>
             </div>
-            <div className="col-lg-6 d-flex justify-content-space-between question-box">
-                <h4>WHY SHOULD WE BUY BOOMM ?</h4>
-                <p></p>
+            <div className='col-lg-6'>
+                <div className="d-flex justify-content-space-between question-box">
+                    <h4>WHY SHOULD WE BUY Y INNOVATION ?</h4>
+                    <p></p>
+                </div>
             </div>
-            <div className="col-lg-6 d-flex justify-content-space-between question-box">
-                <h4>HOW THE LIVE CHART WORKS ON TELEGRAM ?</h4>
-                <p></p>
+            <div className='col-lg-6'>
+                <div className="d-flex justify-content-space-between question-box">
+                    <h4>HOW THE LIVE CHART WORKS IN TELEGRAM ?</h4>
+                    <p></p>
+                </div>
             </div>
-            <div className="col-lg-6 d-flex justify-content-space-between question-box">
-                <h4>HOW SECURE IS THE BOOMM ?</h4>
-                <p></p>
+            <div className='col-lg-6'>
+                <div className="d-flex justify-content-space-between question-box">
+                    <h4>HOW SECURE IS THIS Y INNOVATION ?</h4>
+                    <p></p>
+                </div>
             </div>
-            <div className="col-lg-6 d-flex justify-content-space-between question-box">
-                <h4>WHY THE NAME IS BOOMM ?</h4>
-                <p></p>
+            <div className='col-lg-6'>
+                <div className="d-flex justify-content-space-between question-box">
+                    <h4>WHY THE NAME IS Y INNOVATION ?</h4>
+                    <p></p>
+                </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='' id='community'>
-        <div className='size'>
+      <div className=' py-5 community background mt-5   ' id='community'>
+        <div className='col-lg-6 m-auto'>
           <p className='text-center'>OUR COMMUNNITY</p>
           <h1 className='text-center'>JOIN OUR COMMUNITY AND GET EARLY ACCESS</h1>
-          <div className='d-flex justify-content-center'>
+          <div className='d-flex justify-content-center mt-5'>
               <button className='btn px-5 bgSecondary1'>JOIN TELEGRAM</button>
               <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
             </div>
