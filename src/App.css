@@ -1,0 +1,122 @@
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+body{
+  width: 100% !important;
+}
+:root{
+  --primaryColor: rgb(255,255,255);
+  --secondaryColor1: rgb(112,215,250);
+  --secondaryColor2: rgb(1,82,199);
+  --backgroundColor: rgb(3,11,33);
+  --smallFont: 400;
+  --normalFont: 800;
+  --bigFont: 1000;
+  --fontSize: 20px;
+}
+.text{
+  font-size: var(--fontSize);
+}
+.secondaryColor1{
+  color: var(--secondaryColor1);
+}
+.secondaryColor2{
+  color: var(--secondaryColor2);
+}
+.bgSecondary1{
+  background-color: var(--secondaryColor1);
+}
+.bgSecondary2{
+  background-color: var(--secondaryColor2);
+}
+.size{
+  width: 90%;
+  margin: auto;
+}
+.navbar-brand{
+  padding: 0 !important;
+}
+.navbar-brand img{
+  /* height: ; */
+  padding: 0 !important;
+  height: 5px;
+}
+.nav-section{
+  background-color: rgb(3,11,33);
+  /* background-color: var(--primaryColor); */
+  position: sticky;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+}
+.nav-menu{
+  display: flex !important;
+  justify-content: space-between;
+  
+}
+nav li a{
+  color: var(--primaryColor) !important;
+}
+.nav-btn{
+  /* padding: 0px  10px 0; */
+  display: block !important;
+}
+
+.nav-buttons{
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.header{
+  background-color: var(--backgroundColor);
+}
+/* .nav button:nth-child(1){
+  background-color: var(--secondaryColor1);
+}
+.nav button:nth-child(2){
+  background-color: var(--secondaryColor2);
+} */
+.header{
+  /* background-image: url(""); */
+  /* background-color: blue;  */
+  /* background-image: url(&#39;/assets/images/banner/bg.png&#39;); */
+  color: var(--primaryColor);
+}
+.about{
+  background-color: var(--backgroundColor);
+  color: var(--primaryColor);
+}
+.main-text1{
+  font-weight: var(--normalFont);
+  font-size: 35px;
+}
+.main-text2{
+  font-weight: var(--bigFont);
+  font-size: 70px;
+}
+.team{
+  background-color: var(--backgroundColor);
+  color: var(--primaryColor);
+}
+.team-box{
+  background-color: black;
+  color: var(--primaryColor);
+}
+.question-box{
+  padding: 20px;
+  background-color: grey;
+  margin-bottom: 10px;
+  color: var(--primaryColor);
+}
