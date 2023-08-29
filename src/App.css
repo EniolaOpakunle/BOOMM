@@ -124,6 +124,24 @@ nav li a{
 .roadmap .box div{
   justify-content: space-between;
 }
+.roadmap .line .bg-dark{
+  height: 1040px;
+  
+}
+.roadmap .line{
+  margin-left: 50%;
+  margin-top: -23%;
+}
+.roadmap .right{
+  margin-left: 60% !important ;
+  margin-top: 3%;
+}
+.roadmap .strategy{
+  margin-top: -750px;
+}
+.roadmap .left{
+  margin-top: -3%;
+}
 .question-box{
   padding: 20px;
   background-color: grey;

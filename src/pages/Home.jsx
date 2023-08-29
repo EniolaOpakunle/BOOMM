@@ -106,8 +106,8 @@ function Home() {
         <div className='size'>
           <p className='title text-center'>ROADMAP</p>
           <h1 className='text-center'>HOW IT ALL STARTED</h1>
-          <div className='row'>
-            <div className='gap-3 mt-5'>
+          <div className='d-flex p-relative'>
+            <div className='gap-3 mt-5 '>
                 <div className="col-lg-5 box p-4">
                     <div className='d-flex'>
                         <p className='subtitle'>THE PROBLEM</p>  
@@ -117,7 +117,12 @@ function Home() {
                     that we face everyday ourselves, we were tired of switching between Poocoin/Dextool, telegram and Uniswap/Pankcakeswap copying the contract and finally wake up with a dead token.</p>
                     <p>So we chose to build something to solve the issues and from here Y INNOVATIONS was born.</p>
                 </div>
-                <div className="col-lg-5 box p-4">
+                <div className='line'>
+                    <div className='bg-dark d-flex justify-content-center align-items-center' style={{width:'2rem'}} >
+                        <p className='bgSecondary1' style={{width: "2rem"}}></p>
+                    </div>
+                </div>
+                <div className="col-lg-5 box p-4 right p-absolute strategy">
                     <div className='d-flex'>
                         <p className='subtitle'>THE STRATEGY</p>
                         <p className='subtitle secondaryColor1'>20%</p>
@@ -125,7 +130,7 @@ function Home() {
                     <p>We want our bot to be useful for a large number of users so we chose to build a BuyBot.</p>
                     <p>We know that a lot of buybots are already on the market, so it wouldn't make any sense for us to a build buybot like any other so we will be bringing unique functions to further enhance your crypto experience.</p>
                 </div>
-                <div className="col-lg-5 box p-4">
+                <div className="col-lg-5 box p-4 left">
                     <div className='d-flex'>
                         <p className='subtitle'>THE DEV</p>
                         <p className='subtitle secondaryColor1'>50%</p>
@@ -134,7 +139,7 @@ function Home() {
                     <p>We have faced a lot of problems during the development time between telegram bugs, not reliable private node and scam contracts ect ect.. but after 4 months of working time (full time, often until midnight)</p>
                     <p>we now have all our systems ready that include live chart, buybot, wallets bot, contract analysis, and much more...</p>
                 </div> 
-                <div className="col-lg-5 box p-4">
+                <div className="col-lg-5 box p-4 right">
                     <div className='d-flex'>
                         <p className='subtitle'>THE LAUNCH</p>
                         <p className='subtitle secondaryColor1'>70%</p>
@@ -142,11 +147,7 @@ function Home() {
                     <p>We just started, to be continued...</p>
                 </div>
             </div>
-            {/* <div>
-                <div className='bg-dark d-flex justify-content-center align-items-center' style={{width:'5rem'}}>
-                    <p className='bgSecondary1' style={{width: "2rem"}}>i </p>
-                </div>
-            </div> */}
+            
           </div>
         </div>
       </div>
