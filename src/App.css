@@ -111,11 +111,11 @@ nav li a{
 }
 .main-text1{
   font-weight: var(--normalFont);
-  font-size: 35px;
+  font-size: 30px;
 }
 .main-text2{
-  font-weight: var(--bigFont);
-  font-size: 70px;
+  font-weight: 900;
+  font-size: 40px;
 }
 .box{
   background-color: black;

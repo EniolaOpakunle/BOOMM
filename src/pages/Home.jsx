@@ -21,10 +21,9 @@ function Home() {
         <div className=" main size pt-5">
           <div className='row mt-5 py-4'>
             <div className='col-lg-6 py-4'>
-              <h3 className='main-text1'>OUR TOKEN IS <span className='secondaryColor1'>LIVE</span></h3>
-              <h1 className='main-text2 mt-3'>APE TOKENS <span className='secondaryColor2'>WITH</span> EASE</h1>
-              <p className='text my-4'>Y INNOVATIONS Project is a fully integrated system
-              for you to ape with ease forget about Poocoin/Dextool or Uniswap we provide all directly in your telegram group</p>
+              <h3 className='main-text1'>OUR TOKEN IS <span className='secondaryColor1'>LIVE !!!</span></h3>
+              <h1 className='main-text2 mt-3'>THIS IS WHERE <span className='secondaryColor2'>CRYPTO</span> MEETS INNOVATION AND CHARITY</h1>
+              <p className='text my-4'>Y INNOVATIONS is not just a crypto project, it is a franchise made to revolutionize the crypto as we see it, bringing you real use case utilities and pivoting from the crypto markets into the stock markets</p>
               <div className='mt-4'>
                 <button className='btn px-5 bgSecondary1'>JOIN TELEGRAM</button>
                 <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
@@ -71,28 +70,30 @@ function Home() {
           </div>
           <div className='col-lg-6 px-4'>
             <div className=''>
-              <h4 className='secondaryColor2 title'>THE STORY</h4>
-              <h3 className=''>ABOUT US</h3>
-              <p>Y INNOVATIONS is not just a sniper bot or trading bot, we have built a full integrated system including buybot, walletbot, safecheck and trading bot all direct within telegram. Eliminating the need to use exchanges such as, Dextools, Poocoin, Uniswap and Pancakeswap, we provide all this to you directly in your community group.</p>
+              <h4 className='secondaryColor2 title'>WHY WE STARTED Y</h4>
+              <h3 className=''>ABOUT Y</h3>
+              <p>Our aim at Y INNOVATIONS is pretty simple, bringing real life uses caes and utilities to the digital world. Using it's proceeds to benefit our investors and having what is left over go into charity</p>
+              <p>Y INNOVATIONS is a Non-profit organisation as our CEO is a philantropist and he created this firm to benefit its investors and the world as a whole.</p>
+              <p>Y INNOVATIONS is emulating companies like SpaceX, X(twitter) and a few other firms to become the next technologically advanced firm</p>
             </div>
             <div className='mt-5'>
-              <h4 className='secondaryColor1 title'>OUR VISIONS</h4>
-              <h3>UTILITY THAT SERVES THE COMMUNITY</h3>
-              <p>In 98% of tokens the devs just build utility to pump the chart. BOOMM is different, we aim to solve real problems in crypto space.</p>
-              <p>All the Y INNOVATIONS utilities are interconnected and work together to provide the best user experience possible.</p>
+              <h4 className='secondaryColor1 title'>WHAT WE OFFER</h4>
+              <h3>Y INNOVATIONS STARTING UTILITIES</h3>
+              <p>As we have said earlier, we are not your regular token that builds its utility to pump up price, we offer innovative utilities that solve real problems</p>
+              <p>All our utilites basically aim to profit our investors and ensure they are endlessly rewarded for being a part of Y INNOVATIONS</p>
             </div>
             <div className='row'>
               <div className="col-6">
-                <p><span className='secondaryColor1'>Staking Dappo: </span></p>
+                <p><span className='secondaryColor1'>Staking Dappo: </span> This gives passive income for holding $Y</p>
               </div>
               <div className="col-6">
-                <p><span className='secondaryColor2'>Shillbot:</span></p>
+                <p><span className='secondaryColor2'>Shillbot:</span> This help project advertise and get volume without relying on no volume callers</p>
               </div>
               <div className="col-6">
-                <p><span className='secondaryColor2'>Charity Organisation Partnership:</span></p>
+                <p><span className='secondaryColor2'>Charity Organisation Partnership:</span> We give out a part of our proceeds to charities to help better the lives of children</p>
               </div>
               <div className="col-6">
-                <p><span className='secondaryColor1'>Burns</span></p>
+                <p><span className='secondaryColor1'>Burns: </span>With our daily burn mechanism, the value of $Y will rise indefinitely</p>
               </div>
             </div>
             <div>
