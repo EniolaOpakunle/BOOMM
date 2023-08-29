@@ -103,41 +103,41 @@ function Home() {
         </div>
       </div>
       <div className='py-5 roadmap background' id='roadmap'>
-        <div className='size text-center'>
-          <p className='title'>ROADMAP</p>
-          <h1>HOW IT ALL STARTED</h1>
-          <div className='d-flex'>
-            <div>
-                <div className="col-lg-5">
-                    <div>
-                        <p>THE PROBLEM</p>  
-                        <p className='secondaryColor1'>10%</p>
+        <div className='size'>
+          <p className='title text-center'>ROADMAP</p>
+          <h1 className='text-center'>HOW IT ALL STARTED</h1>
+          <div className='row'>
+            <div className='gap-3 mt-5'>
+                <div className="col-lg-5 box p-4">
+                    <div className='d-flex'>
+                        <p className='subtitle'>THE PROBLEM</p>  
+                        <p className='subtitle secondaryColor1'>10%</p>
                     </div>
                     <p>We built Y INNOVATIONS firstly to solve a problem
                     that we face everyday ourselves, we were tired of switching between Poocoin/Dextool, telegram and Uniswap/Pankcakeswap copying the contract and finally wake up with a dead token.</p>
                     <p>So we chose to build something to solve the issues and from here Y INNOVATIONS was born.</p>
                 </div>
-                <div className="col-lg-5">
-                    <div>
-                        <p>THE STRATEGY</p>
-                        <p className='secondaryColor1'>20%</p>
+                <div className="col-lg-5 box p-4">
+                    <div className='d-flex'>
+                        <p className='subtitle'>THE STRATEGY</p>
+                        <p className='subtitle secondaryColor1'>20%</p>
                     </div>
                     <p>We want our bot to be useful for a large number of users so we chose to build a BuyBot.</p>
                     <p>We know that a lot of buybots are already on the market, so it wouldn't make any sense for us to a build buybot like any other so we will be bringing unique functions to further enhance your crypto experience.</p>
                 </div>
-                <div className="col-lg-5">
-                    <div>
-                        <p>THE DEV</p>
-                        <p className='secondaryColor1'>50%</p>
+                <div className="col-lg-5 box p-4">
+                    <div className='d-flex'>
+                        <p className='subtitle'>THE DEV</p>
+                        <p className='subtitle secondaryColor1'>50%</p>
                     </div>
                     <p>The development take us long time and this was huge challenges for us.</p>
                     <p>We have faced a lot of problems during the development time between telegram bugs, not reliable private node and scam contracts ect ect.. but after 4 months of working time (full time, often until midnight)</p>
                     <p>we now have all our systems ready that include live chart, buybot, wallets bot, contract analysis, and much more...</p>
-                </div>
-                <div className="col-lg-5">
-                    <div>
-                        <p>THE LAUNCH</p>
-                        <p className='secondaryColor1'>70%</p>
+                </div> 
+                <div className="col-lg-5 box p-4">
+                    <div className='d-flex'>
+                        <p className='subtitle'>THE LAUNCH</p>
+                        <p className='subtitle secondaryColor1'>70%</p>
                     </div>
                     <p>We just started, to be continued...</p>
                 </div>
@@ -151,16 +151,16 @@ function Home() {
         </div>
       </div>
       <div className='team background py-5' id='team'>
-        <div className='size text-center'>
-          <p>TEAM MEMBER</p>  
-          <h1>MEET THE CREW</h1>
-          <div className='row gap-4 justify-content-center'>
-                <div className='col-lg-6'>
-                    <div className='row align-items-center team-box'>
+        <div className='size text-left'>
+          <p className='text-center title'>TEAM MEMBER</p>  
+          <h1 className='text-center'>MEET THE CREW</h1>
+          <div className='row mt-5'>
+                <div className='col-lg-6 p-4'>
+                    <div className='row align-items-center box p-3'>
                         <div className="col-lg-6">
                             <img src={yop} alt="" className='w-100' />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mt-3">
                             <h2>YOP</h2>
                             <p>Lead DEV</p>
                             <p>With more than 14years experiences as fullstack engineer and entrepreneur in heart, always looking for challenges.
@@ -168,83 +168,89 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-6'>
-                    <div className='row align-items-center team-box'>
+                <div className='col-lg-6 p-4'>
+                    <div className='row align-items-center box p-3'>
                         <div className="col-lg-6">
                             <img src={hecker} alt="" className='w-100' />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mt-3">
                             <h2>HECKER</h2>
                             <p>Team (Co.)</p>
                             <p>CrYpto enthusiasts from og bsc times 2020 , love helping out and finding true gems. Hardworker and always grinding for success. LFG</p>
                         </div>
                     </div>
                 </div>
-            <div className='col-lg-6'>
-                <div className='row align-items-center team-box'>
-                <div className="col-lg-6">
-                    <img src={kleppelekker} alt="" className='w-100' />
-                </div>
-                <div className="col-lg-6">
-                    <h2>KLEPPELEKKER</h2>
-                    <p>Team (Community Manager)</p>
-                    <p>In cryptospace for few years already. Experience as part of teams also couple of years. As part of the BooMM team we can 💣 this one.</p>
-                </div>
+            <div className='col-lg-6 p-4'>
+                <div className='row align-items-center box p-3'>
+                    <div className="col-lg-6">
+                        <img src={kleppelekker} alt="" className='w-100' />
+                    </div>
+                    <div className="col-lg-6 mt-3">
+                        <h2>KLEPPELEKKER</h2>
+                        <p>Team (Community Manager)</p>
+                        <p>In cryptospace for few years already. Experience as part of teams also couple of years. As part of the BooMM team we can 💣 this one.</p>
+                    </div>
                 </div>
             </div>
-            <div className='col-lg-6 row align-items-center team-box'>
-              <div className="col-lg-6">
-              <img src={busded} alt="" className='w-100' />
-              </div>
-              <div className="col-lg-6">
-                <h2>BUSDED</h2>
-                <p>Team (twitter)</p>
-                <p>I'm a graphics designer. Being part of BooMM allows me to shape the project's identity due to my passion , translating its potential into compelling graphics, fostering user understanding, and ultimately, contributing to the widespread adoption of this cryptocurrency, especially on BSC.</p>
-              </div>
+            <div className='col-lg-6 p-4'>
+                <div className='row align-items-center box p-3'>
+                    <div className="col-lg-6">
+                        <img src={busded} alt="" className='w-100' />
+                    </div>
+                    <div className="col-lg-6 mt-3">
+                        <h2>BUSDED</h2>
+                        <p>Team (twitter)</p>
+                        <p>I'm a graphics designer. Being part of BooMM allows me to shape the project's identity due to my passion , translating its potential into compelling graphics, fostering user understanding, and ultimately, contributing to the widespread adoption of this cryptocurrency, especially on BSC.</p>
+                    </div>
+                </div>
             </div>
-            <div className='col-lg-6 p-2'>
-                <div className='row align-items-center team-box'>
+            <div className='col-lg-6 p-4'>
+                <div className='row align-items-center box p-3'>
                     <div className="col-lg-6">
                         <img src={james} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 mt-3">
                         <h2>JAMES</h2>
                         <p>Social twitter</p>
                         <p>An avid crypto enthusiast who has experience and knowlage in marketing products via social media platforms.</p>
                     </div>
                 </div>
             </div>
-            <div className='col-lg-6 row align-items-center team-box p-2'>
-              <div className="col-lg-6">
-                <img src={tommy} alt="" className='w-100' />
-              </div>
-              <div className="col-lg-6">
-                <h2>TOMMY</h2>
-                <p>Social twitter</p>
-                <p>As a crypto lover, I am passionate about the world of cryptocurrencies. I have been actively involved in the crypto community, staying updated with the latest news, trends, and advancements. I enjoy exploring different blockchain projects, understanding their innovations, and evaluating their potential for future growth.</p>
-              </div>
+            <div className='col-lg-6  p-4'>
+                <div className='row align-items-center box p-3'>
+                    <div className="col-lg-6">
+                        <img src={tommy} alt="" className='w-100' />
+                    </div>
+                    <div className="col-lg-6 mt-3">
+                        <h2>TOMMY</h2>
+                        <p>Social twitter</p>
+                        <p>As a crypto lover, I am passionate about the world of cryptocurrencies. I have been actively involved in the crypto community, staying updated with the latest news, trends, and advancements. I enjoy exploring different blockchain projects, understanding their innovations, and evaluating their potential for future growth.</p>
+                    </div>
+                </div>
             </div>
-            <div className='col-lg-6'>
-                <div className='row align-items-center team-box'>
+            <div className='col-lg-6 p-4'>
+                <div className='row align-items-center box p-3'>
                     <div className="col-lg-6">
                         <img src={sham} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 mt-3">
                         <h2>SHAM</h2>
                         <p>Team (Pusher)</p>
                         <p>I'm not just your average Joe, I'm the crypto wizard who's been enchanting the trading world for over 3 magical years! I've honed my skills in degens and tamed the wild crypto market with my trading prowess. I can read charts like a fortune teller and predict market trends with uncanny accuracy (well, most of the time). Join me on this exhilarating rollercoaster ride through the realms of cryptocurrencies as we seek fortune and adventure! Trust me, in this magical land of crypto, I'm the trader you want by your side.</p>
                     </div>
                 </div>
             </div>
-            <div className='col-lg-6 row align-items-center team-box'>
-              <div className="col-lg-6">
-                <img src={edo} alt="" className ='w-100' />
-              </div>
-              <div className="col-lg-6">
-                <h2>EDO</h2>
-                <p>Team</p>
-                <p>OG in Crypto Space , been working long time as Mod , Marketer , Shiller. Took a break from crypto & went to Market NFTs , now I’m back to 💣 your Mom . PS : no amazing proposal ser</p>
-              </div>
+            <div className='p-4 col-lg-6'>
+                <div className='row align-items-center box p-3'>
+                <div className="col-lg-6">
+                    <img src={edo} alt="" className ='w-100' />
+                </div>
+                <div className="col-lg-6 mt-3">
+                    <h2>EDO</h2>
+                    <p>Team</p>
+                    <p>OG in Crypto Space , been working long time as Mod , Marketer , Shiller. Took a break from crypto & went to Market NFTs , now I’m back to 💣 your Mom . PS : no amazing proposal ser</p>
+                </div>
+                </div>
             </div>
           </div>
         </div>

@@ -48,6 +48,10 @@ body{
   font-size: 17px;
   font-weight: var(--smallFont);
 }
+.subtitle{
+  font-size: 25px;
+  font-weight: var(--normalFont);
+}
 .background{
   background-color: var(--backgroundColor);
   color: var(--primaryColor);
@@ -113,9 +117,12 @@ nav li a{
   font-weight: var(--bigFont);
   font-size: 70px;
 }
-.team-box{
+.box{
   background-color: black;
   color: var(--primaryColor);
+}
+.roadmap .box div{
+  justify-content: space-between;
 }
 .question-box{
   padding: 20px;
