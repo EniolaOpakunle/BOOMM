@@ -18,22 +18,22 @@ function Navbar() {
                 <div class="offcanvas-body">
                     <ul class="navbar-nav flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link active title" aria-current="page" href="#">home</a>
+                        <a class="nav-link active title" aria-current="page" href="/#">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#">about</a>
+                        <a class="nav-link title" href="/#about">about</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#">roadmap</a>
+                        <a class="nav-link title" href="/#roadmap">roadmap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#">team</a>
+                        <a class="nav-link title" href="/#team">team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#">fag</a>
+                        <a class="nav-link title" href="/#fag">fag</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link title" href="#">en</a>
+                        <a class="nav-link title" href="/#community">en</a>
                     </li>
                     </ul>
                     <div className='nav-buttons d-flex'> 

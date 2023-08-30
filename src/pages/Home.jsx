@@ -12,14 +12,15 @@ import james from '../assets/images/james.jpeg'
 import tommy from '../assets/images/tommy.jpeg'
 import sham from '../assets/images/sham.jpeg'
 import edo from '../assets/images/edo.jpeg'
+import Roadmap from '../components/Roadmap'
 
 function Home() {
 
   return (
-    <div className="w-100">
+    <div className="w-100 section">
       <div className='header'>
         <Navbar/>
-        <div className=" main size pt-5">
+        <div className="main size pt-5">
           <div className='row mt-5 py-4'>
             <div className='col-lg-6 py-4'>
               <h3 className='main-text1'>OUR TOKEN IS <span className='secondaryColor1'>LIVE !!!</span></h3>
@@ -35,25 +36,25 @@ function Home() {
             </div>
           </div>
           <div className='row rating'>
-            <div className='col-lg-3'>
+            <div className='col-lg-3 col-md-6'>
                 <div className=' text-center bg-dark py-4 px-5 text-light'>
                     <h2 className='secondaryColor1'>182</h2>
                     <p className='title'>HOLDERS</p>
                 </div>
             </div>
-            <div className='col-lg-3'>
+            <div className='col-lg-3 col-md-6'>
                 <div className=' text-center bg-dark py-4 px-5 text-light'>
                     <h2 className='secondaryColor1'>30.41</h2>
                     <p className='title'>STAKED[%]</p>
                 </div>
             </div>
-            <div className='col-lg-3'>
+            <div className='col-lg-3 col-md-6'>
                 <div className='text-center bg-dark py-4 px-5 text-light'>
                     <h2 className='secondaryColor1' >34846</h2>
                     <p className='title'>TOKEN MCAP [USD]</p>
                 </div>
             </div>
-            <div className='col-lg-3'>
+            <div className='col-lg-3 col-md-6'>
                 <div className='text-center bg-dark py-4 px-5 text-light'>
                     <h2 className='secondaryColor1'>1024</h2>
                     <p className='title'>VOLUME TRADED [BNB]</p>
@@ -104,64 +105,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className='py-5 roadmap background' id='roadmap'>
-        <div className='size'>
-          <p className='title text-center'>ROADMAP</p>
-          <h1 className='text-center'>HOW IT ALL STARTED</h1>
-          <div className='d-flex p-relative'>
-            <div className='gap-3 mt-5 '>
-                <div className="col-lg-5 box p-4">
-                    <div className='d-flex'>
-                        <p className='subtitle'>PHASE 1</p>  
-                        <p className='subtitle secondaryColor1'>10%</p>
-                    </div>
-                    <div className='phase-list'>
-                        <p>-Website Launch</p>
-                        <p>- Launch of Y Social Media</p>
-                        <p>- Community Build Up</p>
-                        <p>- 100 Holders</p>
-                        <p>- Burn 2% of Supply</p>
-                    </div>
-                </div>
-                <div className='line'>
-                    <div className='bg-dark d-flex justify-content-center align-items-center' style={{width:'2rem'}} >
-                        <p className='bgSecondary1' style={{width: "2rem"}}></p>
-                    </div>
-                </div>
-                <div className="col-lg-5 box p-4 right p-absolute strategy">
-                    <div className='d-flex w-100'>
-                        <p className='subtitle'>PHASE 2</p>
-                        <p className='subtitle secondaryColor1'>20%</p>
-                    </div>
-                    <div className='phase-list'>
-                        <p>- Value Marketing Campaign</p>
-                        <p>- Making the Lp Stronger</p>
-                        <p>- Website and Logo Update</p>
-                        <p>- 300 Holders</p>
-                        <p>- Burn 5% of Supply</p>
-                    </div>
-                </div>
-                <div className="col-lg-5 box p-4 left">
-                    <div className='d-flex col-12 w-100'>
-                        <p className='subtitle'>THE DEV</p>
-                        <p className='subtitle secondaryColor1'>50%</p>
-                    </div>
-                    <p>The development take us long time and this was huge challenges for us.</p>
-                    <p>We have faced a lot of problems during the development time between telegram bugs, not reliable private node and scam contracts ect ect.. but after 4 months of working time (full time, often until midnight)</p>
-                    <p>we now have all our systems ready that include live chart, buybot, wallets bot, contract analysis, and much more...</p>
-                </div> 
-                <div className="col-lg-5 box p-4 right">
-                    <div className='d-flex'>
-                        <p className='subtitle'>THE LAUNCH</p>
-                        <p className='subtitle secondaryColor1'>70%</p>
-                    </div>
-                    <p>We just started, to be continued...</p>
-                </div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
+      <Roadmap/>
       <div className='team background py-5' id='team'>
         <div className='size text-left'>
           <p className='text-center title'>TEAM MEMBER</p>  
@@ -169,10 +113,10 @@ function Home() {
           <div className='row mt-5'>
                 <div className='col-lg-6 p-4'>
                     <div className='row align-items-center box p-3'>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6">
                             <img src={yop} alt="" className='w-100' />
                         </div>
-                        <div className="col-lg-6 mt-3">
+                        <div className="col-lg-6 col-md-6 mt-3">
                             <h2>YOP</h2>
                             <p>Lead DEV</p>
                             <p>With more than 14years experiences as fullstack engineer and entrepreneur in heart, always looking for challenges.
@@ -182,10 +126,10 @@ function Home() {
                 </div>
                 <div className='col-lg-6 p-4'>
                     <div className='row align-items-center box p-3'>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6">
                             <img src={hecker} alt="" className='w-100' />
                         </div>
-                        <div className="col-lg-6 mt-3">
+                        <div className="col-lg-6 col-md-6 mt-3">
                             <h2>HECKER</h2>
                             <p>Team (Co.)</p>
                             <p>CrYpto enthusiasts from og bsc times 2020 , love helping out and finding true gems. Hardworker and always grinding for success. LFG</p>
@@ -194,10 +138,10 @@ function Home() {
                 </div>
             <div className='col-lg-6 p-4'>
                 <div className='row align-items-center box p-3'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <img src={kleppelekker} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-6 col-md-6 mt-3">
                         <h2>KLEPPELEKKER</h2>
                         <p>Team (Community Manager)</p>
                         <p>In cryptospace for few years already. Experience as part of teams also couple of years. As part of the BooMM team we can 💣 this one.</p>
@@ -206,10 +150,10 @@ function Home() {
             </div>
             <div className='col-lg-6 p-4'>
                 <div className='row align-items-center box p-3'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <img src={busded} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-6 col-md-6 mt-3">
                         <h2>BUSDED</h2>
                         <p>Team (twitter)</p>
                         <p>I'm a graphics designer. Being part of BooMM allows me to shape the project's identity due to my passion , translating its potential into compelling graphics, fostering user understanding, and ultimately, contributing to the widespread adoption of this cryptocurrency, especially on BSC.</p>
@@ -218,22 +162,22 @@ function Home() {
             </div>
             <div className='col-lg-6 p-4'>
                 <div className='row align-items-center box p-3'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <img src={james} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-6  col-md-6 mt-3">
                         <h2>JAMES</h2>
                         <p>Social twitter</p>
-                        <p>An avid crypto enthusiast who has experience and knowlage in marketing products via social media platforms.</p>
+                        <p>An avid crypto enthusiast who has experience and knowledge in marketing products via social media platforms.</p>
                     </div>
                 </div>
             </div>
             <div className='col-lg-6  p-4'>
                 <div className='row align-items-center box p-3'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <img src={tommy} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-6 col-md-6 mt-3">
                         <h2>TOMMY</h2>
                         <p>Social twitter</p>
                         <p>As a crypto lover, I am passionate about the world of cryptocurrencies. I have been actively involved in the crypto community, staying updated with the latest news, trends, and advancements. I enjoy exploring different blockchain projects, understanding their innovations, and evaluating their potential for future growth.</p>
@@ -242,10 +186,10 @@ function Home() {
             </div>
             <div className='col-lg-6 p-4'>
                 <div className='row align-items-center box p-3'>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-6">
                         <img src={sham} alt="" className='w-100' />
                     </div>
-                    <div className="col-lg-6 mt-3">
+                    <div className="col-lg-6 col-md-6 mt-3">
                         <h2>SHAM</h2>
                         <p>Team (Pusher)</p>
                         <p>I'm not just your average Joe, I'm the crypto wizard who's been enchanting the trading world for over 3 magical years! I've honed my skills in degens and tamed the wild crypto market with my trading prowess. I can read charts like a fortune teller and predict market trends with uncanny accuracy (well, most of the time). Join me on this exhilarating rollercoaster ride through the realms of cryptocurrencies as we seek fortune and adventure! Trust me, in this magical land of crypto, I'm the trader you want by your side.</p>
@@ -254,10 +198,10 @@ function Home() {
             </div>
             <div className='p-4 col-lg-6'>
                 <div className='row align-items-center box p-3'>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6">
                     <img src={edo} alt="" className ='w-100' />
                 </div>
-                <div className="col-lg-6 mt-3">
+                <div className="col-lg-6 col-md-6 mt-3">
                     <h2>EDO</h2>
                     <p>Team</p>
                     <p>OG in Crypto Space , been working long time as Mod , Marketer , Shiller. Took a break from crypto & went to Market NFTs , now I’m back to 💣 your Mom . PS : no amazing proposal ser</p>
