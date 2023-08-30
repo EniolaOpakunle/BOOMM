@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from '../components/Navbar'
 import '../App.css'
 import img1 from '../assets/images/01.png'
@@ -15,7 +15,7 @@ import edo from '../assets/images/edo.jpeg'
 import Roadmap from '../components/Roadmap'
 
 function Home() {
-
+    
   return (
     <div className="w-100 section">
       <div className='header'>
@@ -31,8 +31,8 @@ function Home() {
                 <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
               </div>
             </div>
-            <div className='col-lg-6 d-flex justify-content-right'>
-              <img src={aboutImg} alt="" style={{width: "70%"}} className=''/>
+            <div className='col-lg-6 d-flex justify-content-end'>
+              <img src={aboutImg} alt="" style={{width: "70%", height: "90%"}} className=''/>
             </div>
           </div>
           <div className='row rating'>
@@ -161,7 +161,7 @@ function Home() {
                 </div>
             </div>
             <div className='col-lg-6 p-4'>
-                <div className='row align-items-center box p-3'>
+                <div className='row align-items-center box p-3 scroll-slide'>
                     <div className="col-lg-6 col-md-6">
                         <img src={james} alt="" className='w-100' />
                     </div>
