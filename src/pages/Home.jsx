@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import '../App.css'
 import img1 from '../assets/images/01.png'
-import img2 from '../assets/images/01(2).png'
+import aboutImg from '../assets/images/about.jpg'
 import Footer from '../components/Footer'
 import yop from '../assets/images/yop.jpeg'
 import hecker from '../assets/images/hecker.jpeg'
@@ -31,8 +31,8 @@ function Home() {
                 <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
               </div>
             </div>
-            <div className='col-lg-6'>
-              <img src={img1} alt="" style={{width: "90%"}}/>
+            <div className='col-lg-6 d-flex justify-content-right'>
+              <img src={aboutImg} alt="" style={{width: "70%"}} className=''/>
             </div>
           </div>
           <div className='row rating'>
@@ -67,7 +67,7 @@ function Home() {
         <div className='size row justify-content-space-between'>
           <div className='col-lg-6 div1'>
             <div className=' w-100'>
-              <img src={img2} alt="" className='w-100'/>
+              <img src={aboutImg} alt="" className='w-100'/>
             </div>
           </div>
           <div className='col-lg-6 px-4 div2'>
