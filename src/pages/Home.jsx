@@ -14,8 +14,9 @@ import sham from '../assets/images/sham.jpeg'
 import edo from '../assets/images/edo.jpeg'
 
 function Home() {
+
   return (
-    <div className="">
+    <div className="w-100">
       <div className='header'>
         <Navbar/>
         <div className=" main size pt-5">
@@ -33,7 +34,7 @@ function Home() {
               <img src={img1} alt="" style={{width: "90%"}}/>
             </div>
           </div>
-          <div className='row'>
+          <div className='row rating'>
             <div className='col-lg-3'>
                 <div className=' text-center bg-dark py-4 px-5 text-light'>
                     <h2 className='secondaryColor1'>182</h2>
@@ -63,12 +64,12 @@ function Home() {
       </div>
       <div className='about py-5 background' id='about'>
         <div className='size row justify-content-space-between'>
-          <div className='col-lg-6'>
+          <div className='col-lg-6 div1'>
             <div className=' w-100'>
               <img src={img2} alt="" className='w-100'/>
             </div>
           </div>
-          <div className='col-lg-6 px-4'>
+          <div className='col-lg-6 px-4 div2'>
             <div className=''>
               <h4 className='secondaryColor2 title'>WHY WE STARTED Y</h4>
               <h3 className=''>ABOUT Y</h3>
@@ -90,10 +91,10 @@ function Home() {
                 <p><span className='secondaryColor2'>Shillbot:</span> This help project advertise and get volume without relying on no volume callers</p>
               </div>
               <div className="col-6">
-                <p><span className='secondaryColor2'>Charity Organisation Partnership:</span> We give out a part of our proceeds to charities to help better the lives of children</p>
+                <p><span className='secondaryColor2'>Charity :</span> We give out a part of our proceeds to charities to help better the lives of children</p>
               </div>
               <div className="col-6">
-                <p><span className='secondaryColor1'>Burns: </span>With our daily burn mechanism, the value of $Y will rise indefinitely</p>
+                <p><span className='secondaryColor1'>Burns: </span>With our daily burn mechanism, the value of $Y will rise</p>
               </div>
             </div>
             <div>
@@ -111,12 +112,16 @@ function Home() {
             <div className='gap-3 mt-5 '>
                 <div className="col-lg-5 box p-4">
                     <div className='d-flex'>
-                        <p className='subtitle'>THE PROBLEM</p>  
+                        <p className='subtitle'>PHASE 1</p>  
                         <p className='subtitle secondaryColor1'>10%</p>
                     </div>
-                    <p>We built Y INNOVATIONS firstly to solve a problem
-                    that we face everyday ourselves, we were tired of switching between Poocoin/Dextool, telegram and Uniswap/Pankcakeswap copying the contract and finally wake up with a dead token.</p>
-                    <p>So we chose to build something to solve the issues and from here Y INNOVATIONS was born.</p>
+                    <div className='phase-list'>
+                        <p>-Website Launch</p>
+                        <p>- Launch of Y Social Media</p>
+                        <p>- Community Build Up</p>
+                        <p>- 100 Holders</p>
+                        <p>- Burn 2% of Supply</p>
+                    </div>
                 </div>
                 <div className='line'>
                     <div className='bg-dark d-flex justify-content-center align-items-center' style={{width:'2rem'}} >
@@ -124,15 +129,20 @@ function Home() {
                     </div>
                 </div>
                 <div className="col-lg-5 box p-4 right p-absolute strategy">
-                    <div className='d-flex'>
-                        <p className='subtitle'>THE STRATEGY</p>
+                    <div className='d-flex w-100'>
+                        <p className='subtitle'>PHASE 2</p>
                         <p className='subtitle secondaryColor1'>20%</p>
                     </div>
-                    <p>We want our bot to be useful for a large number of users so we chose to build a BuyBot.</p>
-                    <p>We know that a lot of buybots are already on the market, so it wouldn't make any sense for us to a build buybot like any other so we will be bringing unique functions to further enhance your crypto experience.</p>
+                    <div className='phase-list'>
+                        <p>- Value Marketing Campaign</p>
+                        <p>- Making the Lp Stronger</p>
+                        <p>- Website and Logo Update</p>
+                        <p>- 300 Holders</p>
+                        <p>- Burn 5% of Supply</p>
+                    </div>
                 </div>
                 <div className="col-lg-5 box p-4 left">
-                    <div className='d-flex'>
+                    <div className='d-flex col-12 w-100'>
                         <p className='subtitle'>THE DEV</p>
                         <p className='subtitle secondaryColor1'>50%</p>
                     </div>
@@ -258,9 +268,9 @@ function Home() {
         </div>
       </div>
       <div className='py-5 fag' id='fag'>
-        <div className='size text-center'>
-          <p className='title'>QUESTIONS AND ANSWERS</p>
-          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        <div className='size'>
+          <p className='title text-center'>QUESTIONS AND ANSWERS</p>
+          <h1 className='text-center'>FREQUENTLY ASKED QUESTIONS</h1>
           <div className='row mt-5'>
           <div className='col-lg-6'>
                 <div className="d-flex justify-content-space-between question-box">

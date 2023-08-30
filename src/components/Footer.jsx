@@ -8,7 +8,7 @@ import '../App.css'
 
 function Footer() {
   return (
-    <div className='footer background pt-5'>
+    <div className='footer background pt-5 w-100'>
         <div className='size py-5'>
             <div>
                 {/* <img src='' alt="logo" style={{width: "10rem"}} /> */}
