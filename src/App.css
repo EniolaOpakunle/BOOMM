@@ -171,7 +171,7 @@ nav li a{
     background-color: var(--secondaryColor2);
   }
   .size{
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
   .title{
@@ -189,7 +189,8 @@ nav li a{
   }
   .nav-section{
     text-transform: uppercase;
-    background-color: var(--primaryColor) !important;
+    background-color: var(--backgroundColor) !important;
+    padding-bottom: 5px !important;
   }
   .navbar{
     padding: 20px 0 10px 0 !important;
@@ -219,19 +220,54 @@ nav li a{
   .about{
     padding-top: 100px !important;
   }
+  .about .btn-div , .community .btn-div{
+    display: flex;
+    justify-content: start !important;
+  }
+  .about .btn-div button , .community .btn-div button{
+    /* padding: 10px 30px 10px 30px !important; */
+    margin: 0 !important;
+  }
+  .slide-div {
+    opacity: 0;
+    /* transform: translateX(-100px); */
+    transition:  transform 1s ease-in-out;
+  }
+  
+  .slide-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .slide-out{
+    opacity: 0;
+    transform: translateX(-100%); /* Slide out to the left */
+
+  }
+  
   .main{
-    margin-top: 0 !important;
+    margin-top: -25px !important;
+    padding: 0 !important;
   }
   .main-text1{
     font-weight: var(--normalFont);
-    font-size: 30px;
+    font-size: 25px;
   }
   .main-text2{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
+  }
+  .main .img-div {
+    display: flex;
+    justify-content: center !important;
+  }
+  .main img{
+     width: 100% !important;
   }
   .main button{
-    margin: 0 !important;
+    /* margin: 0 !important; */
+    /* margin-top: 10px !important; */
+    /* margin: 10px 5px 0 0; */
+    padding: 10px 30px 10px 30px!important;
   }
   .box{
     background-color: black;
@@ -261,6 +297,18 @@ nav li a{
   }
   .roadmap .box{
     margin-top: 10px !important;
+  }
+  .team .box h2{
+    transition: color 0.3s;
+  }
+  .team .box:hover h2{
+    color: var(--secondaryColor1);
+  }
+  .team .box img{
+    transition: transform 0.3s;
+  }
+  .team .box:hover img{
+    transform: scale(1.1);
   }
   .question-box{
     padding: 20px;

@@ -13,8 +13,14 @@ import tommy from '../assets/images/tommy.jpeg'
 import sham from '../assets/images/sham.jpeg'
 import edo from '../assets/images/edo.jpeg'
 import Roadmap from '../components/Roadmap'
+import { useInView } from 'react-intersection-observer';
+
 
 function Home() {
+    const [ref, inView] = useInView({
+        triggerOnce: true, // Animation triggers only once when element comes into view
+        threshold: 0.5, 
+      });
     
   return (
     <div className="w-100 section">
@@ -31,7 +37,7 @@ function Home() {
                 <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
               </div>
             </div>
-            <div className='col-lg-6 d-flex justify-content-end'>
+            <div className='col-lg-6 d-flex justify-content-end img-div'>
               <img src={aboutImg} alt="" style={{width: "70%", height: "90%"}} className=''/>
             </div>
           </div>
@@ -98,7 +104,7 @@ function Home() {
                 <p><span className='secondaryColor1'>Burns: </span>With our daily burn mechanism, the value of $Y will rise</p>
               </div>
             </div>
-            <div>
+            <div className='btn-div'>
               <button className='btn px-5 bgSecondary1'>JOIN TELEGRAM</button>
               <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
             </div>
@@ -106,13 +112,17 @@ function Home() {
         </div>
       </div>
       <Roadmap/>
+      {/* <div className={`slide-div ${inView ? 'slide-in' : 'slide-out'}`} ref={ref}>
+        <p>hello world</p>
+    </div> */}
+
       <div className='team background py-5' id='team'>
         <div className='size text-left'>
           <p className='text-center title'>TEAM MEMBER</p>  
           <h1 className='text-center'>MEET THE CREW</h1>
           <div className='row mt-5'>
                 <div className='col-lg-6 p-4'>
-                    <div className='row align-items-center box p-3'>
+                    <div className={`row align-items-center box p-3 slide-div ${inView ? 'slide-in' : 'slide-out'}`} ref={ref}>
                         <div className="col-lg-6 col-md-6">
                             <img src={yop} alt="" className='w-100' />
                         </div>
@@ -256,10 +266,10 @@ function Home() {
         </div>
       </div>
       <div className=' py-5 community background mt-5   ' id='community'>
-        <div className='col-lg-6 m-auto'>
-          <p className='text-center'>OUR COMMUNNITY</p>
-          <h1 className='text-center'>JOIN OUR COMMUNITY AND GET EARLY ACCESS</h1>
-          <div className='d-flex justify-content-center mt-5'>
+        <div className='size'>
+          <p className='col-lg-6 m-auto text-center'>OUR COMMUNNITY</p>
+          <h1 className='col-lg-6 m-auto text-center'>JOIN OUR COMMUNITY AND GET EARLY ACCESS</h1>
+          <div className='d-flex justify-content-center mt-5 btn-div col-lg-6 m-auto'>
               <button className='btn px-5 bgSecondary1'>JOIN TELEGRAM</button>
               <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
             </div>
