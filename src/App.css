@@ -29,7 +29,7 @@
   background-color: var(--secondaryColor2);
 }
 .size{
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 .background{
@@ -171,7 +171,7 @@ nav li a{
     background-color: var(--secondaryColor2);
   }
   .size{
-    width: 95%;
+    width: 80%;
     margin: auto;
   }
   .title{
