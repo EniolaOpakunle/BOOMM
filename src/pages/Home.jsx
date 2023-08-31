@@ -37,31 +37,31 @@ function Home() {
                 <button className='btn px-5 bgSecondary2 mx-3'>BUY NOW!</button>
               </div>
             </div>
-            <div className='col-lg-6 d-flex justify-content-end img-div'>
+            <div className='col-lg-6 d-flex justify-content-end img-div align-items-center'>
               <img src={aboutImg} alt="" style={{width: "70%", height: "90%"}} className=''/>
             </div>
           </div>
           <div className='row rating'>
             <div className='col-lg-3 col-md-6'>
-                <div className=' text-center bg-dark py-4 px-5 text-light'>
+                <div className=' text-center bg-dark py-4 px-4 text-light'>
                     <h2 className='secondaryColor1'>182</h2>
                     <p className='title'>HOLDERS</p>
                 </div>
             </div>
             <div className='col-lg-3 col-md-6'>
-                <div className=' text-center bg-dark py-4 px-5 text-light'>
+                <div className=' text-center bg-dark py-4 px-4 text-light'>
                     <h2 className='secondaryColor1'>30.41</h2>
                     <p className='title'>STAKED[%]</p>
                 </div>
             </div>
             <div className='col-lg-3 col-md-6'>
-                <div className='text-center bg-dark py-4 px-5 text-light'>
+                <div className='text-center bg-dark py-4 px-4 text-light'>
                     <h2 className='secondaryColor1' >34846</h2>
                     <p className='title'>TOKEN MCAP [USD]</p>
                 </div>
             </div>
             <div className='col-lg-3 col-md-6'>
-                <div className='text-center bg-dark py-4 px-5 text-light'>
+                <div className='text-center bg-dark py-4 px-4 text-light'>
                     <h2 className='secondaryColor1'>1024</h2>
                     <p className='title'>VOLUME TRADED [BNB]</p>
                 </div>
@@ -91,17 +91,25 @@ function Home() {
               <p>All our utilites basically aim to profit our investors and ensure they are endlessly rewarded for being a part of Y INNOVATIONS</p>
             </div>
             <div className='row'>
-              <div className="col-6">
-                <p><span className='secondaryColor1'>Staking Dappo: </span> This gives passive income for holding $Y</p>
+              <div className='col-6 pr-1'>
+                <div className=" utility-div pt-1">
+                    <p><span className='secondaryColor1'>Staking Dappo: </span> This gives passive income for holding $Y</p>
+                </div>
               </div>
-              <div className="col-6">
-                <p><span className='secondaryColor2'>Shillbot:</span> This help project advertise and get volume without relying on no volume callers</p>
+              <div className='col-6 pr-1'>
+                <div className=" utility-div pt-1">
+                    <p><span className='secondaryColor2'>Shillbot:</span> This help project advertise and get volume without relying on no volume callers</p>
+                </div>
               </div>
-              <div className="col-6">
-                <p><span className='secondaryColor2'>Charity :</span> We give out a part of our proceeds to charities to help better the lives of children</p>
+              <div className='col-6 pr-1'>
+                <div className="utility-div pt-1">
+                    <p><span className='secondaryColor2'>Charity :</span> We give out a part of our proceeds to charities to help better the lives of children</p>
+                </div>
               </div>
-              <div className="col-6">
-                <p><span className='secondaryColor1'>Burns: </span>With our daily burn mechanism, the value of $Y will rise</p>
+              <div className='col-6 pr-1'>
+                <div className=" utility-div pt-1">
+                    <p><span className='secondaryColor1'>Burns: </span>With our daily burn mechanism, the value of $Y will rise</p>
+                </div>
               </div>
             </div>
             <div className='btn-div'>

@@ -12,7 +12,16 @@
     animation: logo-spin infinite 20s linear;
   }
 } */
-
+button{
+  transition-property: background-color;
+  transition-duration: 0.6s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+button:hover{
+  /* transform: scale(1); */
+  background-color: var(--secondaryColor1) !important;
+}
 .text{
   font-size: var(--fontSize);
 }
@@ -97,7 +106,10 @@ nav li a{
   color: var(--primaryColor);
 }
 .about .div2{
-  margin-top: 30px;
+  /* margin-top: 30px; */
+}
+.utility-div{
+  border-top: thin solid rgba(128, 128, 128, 0.185);
 }
 .roadmap .box div{
   justify-content: space-between;
